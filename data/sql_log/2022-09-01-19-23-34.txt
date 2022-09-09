@@ -1,0 +1,2 @@
+ECSHOP info
+: Can't Connect MySQL Server(localhost:3306)!

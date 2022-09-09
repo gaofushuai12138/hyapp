@@ -1,0 +1,24 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] => UPDATE td_app_user_token SET token = '74BDE966-AC0C-4B2E-84CE-5970F40077D9', exp_time = '1656303029' WHERE token=7CCBEFE8-E5C7-4E67-B196-DC7CCBA4ED5E
+        )
+
+    [2] => Array
+        (
+            [error] => Unknown column '7CCBEFE8' in 'where clause'
+        )
+
+    [3] => Array
+        (
+            [errno] => 1054
+        )
+
+)

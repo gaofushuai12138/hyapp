@@ -1,0 +1,24 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] => SELECT * FROM td_vanc_plan WHERE plan_id =  
+        )
+
+    [2] => Array
+        (
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+        )
+
+    [3] => Array
+        (
+            [errno] => 1064
+        )
+
+)

@@ -1,0 +1,24 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] => insert into td_feed_plan (hutchs,feed_date,formula_id,sheep_type,weight,add_time,team_id,grp_id , add_user_id ,state ,detail_weight) values ('[{"hutch_id":"10","hutch_name":"A0110"}]', '2022-09-06', 21, 3, , '2022-09-06 19:44:05',3,9 ,36 ,0 ,'[{"feed_id":"18","weight":0}]')
+        )
+
+    [2] => Array
+        (
+            [error] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '2022-09-06 19:44:05',3,9 ,36 ,0 ,'[{"feed_id":"18","weight":0}]')' at line 1
+        )
+
+    [3] => Array
+        (
+            [errno] => 1064
+        )
+
+)

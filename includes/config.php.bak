@@ -1,0 +1,55 @@
+<?php
+// database host
+//$db_host   = "service.hzshenlan.com:7788";
+//$db_host   = "192.168.200.66:7788";
+//$db_host   = "iot.nongzongbu.com:7788";
+$db_host   = "localhost:3306";
+// database name
+$db_name   = "db_huyangapp";
+
+// database username
+$db_user   = "root";
+
+// database password
+$db_pass   = "pwd_1@3";
+
+
+$db_host2   = "localhost:3306";
+// database name
+$db_name2   = "db_huyangapp_changxing";
+
+// database username
+$db_user2   = "root";
+
+// database password
+$db_pass2   = "pwd_1@3";
+
+$db_host3   = "localhost:3306";
+// database name
+$db_name3   = "db_huyangapp_keping";
+
+// database username
+$db_user3   = "root";
+
+// database password
+$db_pass3   = "pwd_1@3";
+
+// table prefix
+$prefix    = "td_";
+
+$timezone    = "PRC";
+
+$cookie_path    = "/";
+
+$cookie_domain    = "";
+
+$session = "7200";
+
+$aes_key = "@3ccd5ff241ed38!";
+if(!defined('EC_CHARSET')){
+	define('EC_CHARSET','utf-8');
+}
+define('SITE_ROOT','https://slyw.hzshenlan.com/');
+define('URL_SENDMESSAGE','http://192.168.200.66:8088/sendMsg.ashx');
+define('URL_KAI_PIAO_SHEN_QING','http://192.168.200.66:8088/sendMsg.ashx');
+?>

@@ -1,0 +1,24 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] =>   SELECT * FROM td_vanc_plan WHERE 1=1 and state = 1   order by add_time desc  limit  0, 20 
+        )
+
+    [2] => Array
+        (
+            [error] => Table 'db_huyangapp_keping.td_vanc_plan' doesn't exist
+        )
+
+    [3] => Array
+        (
+            [errno] => 1146
+        )
+
+)

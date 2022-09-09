@@ -1,0 +1,217 @@
+2022-07-07 10:45:11 debug {"exp_time":"1657098976","admin_id":"43","grp_id":"0"}
+2022-07-07 10:45:11 debug 失效时间：1657098976 系统时间：1657161911
+2022-07-07 10:46:12 debug {"user_id":"3","uname":"weng","grp_id":"9","admin_id":"43"}
+2022-07-07 10:46:12 debug update token
+2022-07-07 10:46:12 debug {"exp_time":1657165572,"token":"A9D83286-1FD0-4D2A-863B-6C92C4A1C460","user_id":"3","grp_id":"9","admin_id":"43"}
+2022-07-07 10:46:12 debug [{"token":"A9D83286-1FD0-4D2A-863B-6C92C4A1C460","org_list":[{"org_id":"9","org_name":"长兴天下牧业","org_ico":null}]}]
+2022-07-07 10:46:33 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:46:33 debug 失效时间：1657165572 系统时间：1657161993
+2022-07-07 10:46:33 debug [{"has_more":false,"msg_list":[{"msg_id":null,"msg_title":"公告标题公告标题公告标题20220531","msg_sub_title":"公告子标题20220531","msg_time":"2022-05-31 15:34:00","msg_short_desc":"20220531公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述","msg_month":"5","msg_day":"31","msg_img":"img\/images.jpg"},{"msg_id":null,"msg_title":"公告标题公告标题公告标题20220601","msg_sub_title":"公告子标题20220601","msg_time":"2022-06-01 15:34:00","msg_short_desc":"20220601公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述公告简述","msg_month":"6","msg_day":"1","msg_img":"img\/images.jpg"}]}]
+2022-07-07 10:46:54 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:46:54 debug 失效时间：1657165572 系统时间：1657162014
+2022-07-07 10:46:58 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:46:58 debug 失效时间：1657165572 系统时间：1657162018
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug 
+2022-07-07 10:46:58 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:00 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:00 debug 失效时间：1657165572 系统时间：1657162020
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug 
+2022-07-07 10:47:00 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:01 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:01 debug 失效时间：1657165572 系统时间：1657162021
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug 
+2022-07-07 10:47:01 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:02 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:02 debug 失效时间：1657165572 系统时间：1657162022
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug 
+2022-07-07 10:47:02 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:03 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:03 debug 失效时间：1657165572 系统时间：1657162023
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug 
+2022-07-07 10:47:03 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:05 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:05 debug 失效时间：1657165572 系统时间：1657162025
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug 
+2022-07-07 10:47:05 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:06 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:06 debug 失效时间：1657165572 系统时间：1657162026
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug 
+2022-07-07 10:47:06 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:08 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:08 debug 失效时间：1657165572 系统时间：1657162028
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug 
+2022-07-07 10:47:08 debug [{"has_more":true,"msg_list":[{"msg_id":"2","msg_title":"A02 西门口外面有散落的电线皮","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:53:49","msg_short_desc":"A02 西门口外面有散落的电线皮","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"3","msg_title":"B01北边风扇一开就跳闸","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:20","msg_short_desc":"B01北边风扇一开就跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"4","msg_title":"A01北边风扇一排只有3个会转了","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:54:39","msg_short_desc":"A01北边风扇一排只有3个会转了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"5","msg_title":"A1703 有小羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:05","msg_short_desc":"A1703 有小羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"6","msg_title":"B1571 母羊指甲过长需要修剪","msg_sub_title":"羊只情况","msg_time":"2022-07-06 14:55:28","msg_short_desc":"B1571 母羊指甲过长需要修剪","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"7","msg_title":"中间南部通道上有 风扇的纸壳子没有清理干","msg_sub_title":"园区环卫","msg_time":"2022-07-06 14:56:07","msg_short_desc":"中间南部通道上有 风扇的纸壳子没有清理干净","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"8","msg_title":"北边河边需要有栅栏，防止小羊跑入河里","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:56:39","msg_short_desc":"北边河边需要有栅栏，防止小羊跑入河里","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"9","msg_title":"消毒池边上通道有缝隙可以钻出","msg_sub_title":"园区安全","msg_time":"2022-07-06 14:57:22","msg_short_desc":"消毒池边上通道有缝隙可以钻出","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"10","msg_title":"药品库房空调内机漏水","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:57:44","msg_short_desc":"药品库房空调内机漏水","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"11","msg_title":"拌料车间TMR机无法开机","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:09","msg_short_desc":"拌料车间TMR机无法开机","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"12","msg_title":"喂食车1#计重失灵","msg_sub_title":"设施报修","msg_time":"2022-07-06 14:58:45","msg_short_desc":"喂食车1#计重失灵","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"13","msg_title":"B0808 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:23","msg_short_desc":"B0808 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"14","msg_title":"B1809 有羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:35","msg_short_desc":"B1809 有羊流产","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"15","msg_title":"B1315 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:00:57","msg_short_desc":"B1315 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"16","msg_title":"B2122 有母羊死了","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:01:14","msg_short_desc":"B2122 有母羊死了","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"17","msg_title":"A17 总电闸跳闸","msg_sub_title":"设施保修","msg_time":"2022-07-06 15:02:13","msg_short_desc":"A17 总电闸跳闸","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"18","msg_title":"A0102 母羊不吃食","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:12:13","msg_short_desc":"A0102 母羊不吃食","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"19","msg_title":"A0513 小羊后腿受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:15:13","msg_short_desc":"A0513 小羊后腿受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"20","msg_title":"A0824 母羊流血","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:14:17","msg_short_desc":"A0824 母羊流血","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"21","msg_title":"C0124 母羊受伤","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:18:18","msg_short_desc":"C0124 母羊受伤","msg_month":"7","msg_day":"6","msg_img":null},{"msg_id":"22","msg_title":"C0258 母羊流产","msg_sub_title":"羊只情况","msg_time":"2022-07-06 15:21:45","msg_short_desc":"C0258 母羊流产","msg_month":"7","msg_day":"6","msg_img":null}]}]
+2022-07-07 10:47:10 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:10 debug 失效时间：1657165572 系统时间：1657162030
+2022-07-07 10:47:10 debug [{"has_more":false,"msg_list":[{"msg_id":null,"msg_title":"任务标题任务标题任务标题","msg_sub_title":"任务子标题","msg_time":"2022-06-01 15:34:00","msg_short_desc":"任务简述","msg_month":"6","msg_day":"1","msg_img":""}]}]
+2022-07-07 10:47:11 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:11 debug 失效时间：1657165572 系统时间：1657162031
+2022-07-07 10:47:17 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:17 debug 失效时间：1657165572 系统时间：1657162037
+2022-07-07 10:47:17 debug [{"has_more":false,"feed_list":[]}]
+2022-07-07 10:47:18 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:18 debug 失效时间：1657165572 系统时间：1657162038
+2022-07-07 10:47:18 debug [{"has_more":false,"feed_list":[]}]
+2022-07-07 10:47:18 debug {"exp_time":"1657165572","admin_id":"43","grp_id":"9"}
+2022-07-07 10:47:18 debug 失效时间：1657165572 系统时间：1657162038
+2022-07-07 10:47:18 debug [{"has_more":false,"feed_list":[]}]

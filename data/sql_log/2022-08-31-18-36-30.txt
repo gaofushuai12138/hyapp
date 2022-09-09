@@ -1,0 +1,25 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] =>  SELECT t.mission_id,t.room_name,t.add_time FROM td_breed_mission t 
+			WHERE 1 = 1   and t.grp_id = '10' 
+        )
+
+    [2] => Array
+        (
+            [error] => Table 'db_huyangapp_keping.td_breed_mission' doesn't exist
+        )
+
+    [3] => Array
+        (
+            [errno] => 1146
+        )
+
+)

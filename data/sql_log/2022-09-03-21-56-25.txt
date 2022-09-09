@@ -1,0 +1,24 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] => select * from td_msg_notice where msg_id=''
+        )
+
+    [2] => Array
+        (
+            [error] => Table 'db_huyangapp_changxing.td_msg_notice' doesn't exist
+        )
+
+    [3] => Array
+        (
+            [errno] => 1146
+        )
+
+)

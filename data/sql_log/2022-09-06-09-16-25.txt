@@ -1,0 +1,24 @@
+MySQL server error report:
+Array
+(
+    [0] => Array
+        (
+            [message] => MySQL Query Error
+        )
+
+    [1] => Array
+        (
+            [sql] =>  SELECT * FROM td_msg_task WHERE msg_title LIKE '%%' 
+        )
+
+    [2] => Array
+        (
+            [error] => Unknown column 'msg_title' in 'where clause'
+        )
+
+    [3] => Array
+        (
+            [errno] => 1054
+        )
+
+)
