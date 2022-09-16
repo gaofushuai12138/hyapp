@@ -37,6 +37,8 @@ function api_forage_stock(){
 	$forage_list = [];
 	$arr = array();
 	$arr[] = 0;
+	#系数因子
+	$fac = 1;
 	//$sum = array();
 	//$sum[] = 0;
 	if(empty($forage_info_list))
@@ -54,7 +56,7 @@ function api_forage_stock(){
 		foreach($forage_info_list as $row){
 			//整合所有要的信息
 			//$forage_list[] = ['s_name'=>$row['s_name'],'s_stock'=>$row['s_stock'],'s_in_stock'=>$row['s_in_stock'],'s_out_stock'=>$row['s_out_stock'],'days'=>($arr[$row['s_name']]/$sum[$row['s_name']])];	
-		    $forage_list[] = ['s_name'=>$row['s_name'],'s_stock'=>$row['s_stock'],'s_in_stock'=>$row['s_in_stock'],'s_out_stock'=>$row['s_out_stock'],'expect_days'=>round($row['s_stock']/($arr[$row['s_name']]/90))];
+		    $forage_list[] = ['s_name'=>$row['s_name'],'s_stock'=>$fac*$row['s_stock'],'s_in_stock'=>$fac*$row['s_in_stock'],'s_out_stock'=>$fac*$row['s_out_stock'],'expect_days'=>round($row['s_stock']/($arr[$row['s_name']]/90))];
 		}
 	}
 	
@@ -76,12 +78,21 @@ function api_forage_statistics(){
 	$groupId = $GLOBALS['group_id'];
 	$db2 = $GLOBALS['groupdb'][$groupId]; 
 	
+    //出库根据team_id查
+	$sql1 = " SELECT td_stock_statistics.id,td_stock_statistics.s_name,td_outhouse_detail.d_num,SUBSTR(td_outhouse.o_time,1,10),td_outhouse.team_id FROM td_stock_statistics inner join td_outhouse_detail inner join td_outhouse on td_outhouse.o_id=td_outhouse_detail.o_id  and td_outhouse.team_id=td_outhouse_detail.team_id and td_stock_statistics.id=td_outhouse_detail.s_id where td_outhouse.o_time >= '$datetime_from' and td_outhouse.o_time<='$datetime_to' and td_outhouse.team_id=$team_id and td_stock_statistics.id=$forage_id and td_outhouse_detail.d_num>0	" ;
+    //入库不用team_id
+	$sql2 = " SELECT td_warehouse.w_id,td_stock_statistics.id,td_stock_statistics.s_name,td_warehouse_detail.w_num,SUBSTR(td_warehouse.w_time,1,10) FROM td_stock_statistics inner join td_warehouse_detail inner join td_warehouse on td_warehouse.w_id=td_warehouse_detail.w_id  and td_stock_statistics.id=td_warehouse_detail.w_sid where td_warehouse.w_time >= '$datetime_from' and td_warehouse.w_time<='$datetime_to'  and td_stock_statistics.id=$forage_id and td_warehouse_detail.w_num>0 ";
+	//出库不传入team_id，为空
+	$sql3 =" SELECT td_stock_statistics.id,td_stock_statistics.s_name,td_outhouse_detail.d_num,SUBSTR(td_outhouse.o_time,1,10),td_outhouse.team_id FROM td_stock_statistics inner join td_outhouse_detail inner join td_outhouse on td_outhouse.o_id=td_outhouse_detail.o_id  and td_outhouse.team_id=td_outhouse_detail.team_id and td_stock_statistics.id=td_outhouse_detail.s_id where td_outhouse.o_time >= '$datetime_from' and td_outhouse.o_time<= '$datetime_to' and td_stock_statistics.id=$forage_id and td_outhouse_detail.d_num>0 ";
+     
 
-	$sql1 = " SELECT td_stock_statistics.id,td_stock_statistics.s_name,td_outhouse_detail.d_num,SUBSTR(td_outhouse.o_time,1,10),td_outhouse.grp_id FROM td_stock_statistics inner join td_outhouse_detail inner join td_outhouse on td_outhouse.o_id=td_outhouse_detail.o_id  and td_outhouse.grp_id=td_outhouse_detail.grp_id and td_stock_statistics.id=td_outhouse_detail.s_id where td_outhouse.o_time >=  '$datetime_from'  and td_outhouse.o_time<= '$datetime_to'  and td_outhouse.grp_id= $team_id  and td_stock_statistics.id= $forage_id  and td_outhouse_detail.d_num>0	" ;
-    $sql2 = " SELECT td_stock_statistics.id,td_stock_statistics.s_name,td_warehouse_detail.w_num,SUBSTR(td_warehouse.w_time,1,10),td_warehouse.grp_id FROM td_stock_statistics inner join td_warehouse_detail inner join td_warehouse on td_warehouse.w_id=td_warehouse_detail.w_id  and td_warehouse.grp_id=td_stock_statistics.grp_id and td_stock_statistics.id=td_warehouse_detail.w_sid where td_warehouse.w_time >= '$datetime_from' and td_warehouse.w_time<='$datetime_to' and td_warehouse.grp_id=$team_id and td_stock_statistics.id=$forage_id and td_warehouse_detail.w_num>0 ";
-	
 
-    $forage_info_list_out = $db2->getAll($sql1);
+	if($team_id == NULL){
+		$forage_info_list_out = $db2->getAll($sql3);
+	}else{
+		$forage_info_list_out = $db2->getAll($sql1);
+	}
+    //$forage_info_list_out = $db2->getAll($sql1);
 	$forage_info_list_in = $db2->getAll($sql2);
 
 	$forage_list = [];
@@ -95,10 +106,10 @@ function api_forage_statistics(){
 	//$sum_out[] = 0;
 	if(empty($forage_info_list_out))
 	{
-		$forage_list_out = ["out_data is null"];
-		$forage_data[] = ['has_more'=>false,'forage_list'=>$forage_list_out];
+		$forage_list_out = "out_data is null";
+		//$forage_data[] = ['has_more'=>false,'forage_list'=>$forage_list_out];
 		//$forage_data[] = ['has_more'=>false,'forage_list'=>[]];
-        return apiSucc($forage_data);
+        //return apiSucc($forage_data);
     }else{
         $hasMore = true;
 		foreach($forage_info_list_out as $row){
@@ -139,10 +150,10 @@ function api_forage_statistics(){
 	//$sum_in[] = 0;
 	if(empty($forage_info_list_in))
 	{
-		$forage_list_in = ["in_data is null"];
-		$forage_data[] = ['has_more'=>false,'forage_list'=>$forage_list_in];
+		$forage_list_in = "in_data is null";
+		//$forage_data[] = ['has_more'=>false,'forage_list'=>$forage_list_in];
 		//$forage_data[] = ['has_more'=>false,'forage_list'=>[]];
-        return apiSucc($forage_data);
+        //return apiSucc($forage_data);
     }else{
         $hasMore = true;
 		foreach($forage_info_list_in as $row){
@@ -172,11 +183,30 @@ function api_forage_statistics(){
 	$s_in_all[] = ['in_date'=>$s_in_time,'in_num'=>$s_in_sum];
 	}
 	
+
+
+	if($forage_list_out == "out_data is null" and $forage_list_in == "in_data is null"){
+		$hasMore = false;
+		$forage_data[] = ['has_more'=>$hasMore,'forage_list'=>[]];
+	}else if($forage_list_out == "out_data is null" and $forage_list_in != "in_data is null"){
+        $hasMore = true;
+		$s_out_all[] = ['out_date'=>[0],'out_num'=>[0]];
+		$forage_list[] = ['in_data'=>$s_in_all,'out_data'=>$s_out_all];
+		$forage_data[] = ['has_more'=>$hasMore,'forage_list'=>$forage_list];
+	}else if($forage_list_out != "out_data is null" and $forage_list_in == "in_data is null"){
+        $hasMore = true;
+		$s_in_all[] = ['in_date'=>[0],'in_num'=>[0]];
+		$forage_list[] = ['in_data'=>$s_in_all,'out_data'=>$s_out_all];
+		$forage_data[] = ['has_more'=>$hasMore,'forage_list'=>$forage_list];
+	}else{
+		$hasMore = true;
+		$forage_list[] = ['in_data'=>$s_in_all,'out_data'=>$s_out_all];
+		$forage_data[] = ['has_more'=>$hasMore,'forage_list'=>$forage_list];
+	}
 	
+	// $forage_list[] = ['in_data'=>$s_in_all,'out_data'=>$s_out_all];
 	
-	$forage_list[] = ['in_data'=>$s_in_all,'out_data'=>$s_out_all];
-	
-	$forage_data[] = ['has_more'=>$hasMore,'forage_list'=>$forage_list];
+	// $forage_data[] = ['has_more'=>$hasMore,'forage_list'=>$forage_list];
     return apiSucc($forage_data);
 }
 //下拉框
@@ -203,6 +233,32 @@ function api_forage_select(){
 	}
 	$forage_data[] = ['has_more'=>$hasMore,'forage_list'=>$forage_list];
     return apiSucc($forage_data);
+
+}
+
+function api_forage_teamselect(){
+	$groupId = $GLOBALS['group_id'];
+	$db2 = $GLOBALS['groupdb'][$groupId]; 
+
+	$sql = "SELECT td_team.team_id,td_team.team_name FROM td_team " ;
+
+	$team_info_list = $db2->getAll($sql);
+    $team_list = [];
+    debug($team_info_list);
+	if(empty($team_info_list))
+	{
+		$team_data[] = ['has_more'=>false,'team_list'=>[]];
+        return apiSucc($team_data);
+    }else{
+        $hasMore = true;
+		//遍历获得的数据
+		foreach($team_info_list as $row){
+			//整合所有要的信息
+		    $team_list[] = ['team_id'=>$row['team_id'],'team_name'=>$row['team_name']];
+		}
+	}
+	$team_data[] = ['has_more'=>$hasMore,'team_list'=>$team_list];
+    return apiSucc($team_data);
 
 }
 
