@@ -76,11 +76,17 @@ function api_medical_statistics(){
 	$db2 = $GLOBALS['groupdb'][$groupId]; 
 	
 
-	$sql1 = " SELECT td_stock_medication.id,td_stock_medication.m_name,td_medkit_out_detail.m_num,SUBSTR(td_medkit_out.m_time,1,10),td_medkit_out.grp_id FROM td_stock_medication inner join td_medkit_out_detail inner join td_medkit_out on td_medkit_out.m_id=td_medkit_out_detail.m_id  and td_medkit_out.grp_id=td_stock_medication.grp_id and td_stock_medication.id=td_medkit_out_detail.m_wid where td_medkit_out.m_time >= '$datetime_from' and td_medkit_out.m_time<='$datetime_to' and td_medkit_out.grp_id=$team_id and td_stock_medication.id=$medical_id and td_medkit_out_detail.m_num>0	" ;
-    $sql2 = " SELECT td_stock_medication.id,td_stock_medication.m_name,td_medkit_in_deatail.w_num,SUBSTR(td_medkit_in.w_time,1,10),td_medkit_in.grp_id FROM td_stock_medication inner join td_medkit_in_deatail inner join td_medkit_in on td_medkit_in.w_id=td_medkit_in_deatail.w_id  and td_medkit_in.grp_id=td_stock_medication.grp_id and td_stock_medication.id=td_medkit_in_deatail.w_mid where td_medkit_in.w_time >= '$datetime_from' and td_medkit_in.w_time<='$datetime_to' and td_medkit_in.grp_id=$team_id and td_stock_medication.id=$medical_id and td_medkit_in_deatail.w_num>0 ";
-	
+	$sql1 = " SELECT td_stock_medication.id,td_stock_medication.m_name,td_medkit_out_detail.m_num,SUBSTR(td_medkit_out.m_time,1,10),td_medkit_out.team_id FROM td_stock_medication inner join td_medkit_out_detail inner join td_medkit_out on td_medkit_out.m_id=td_medkit_out_detail.m_id  and td_medkit_out.team_id=td_medkit_out_detail.team_id and td_stock_medication.id=td_medkit_out_detail.m_wid where td_medkit_out.m_time >= '$datetime_from' and td_medkit_out.m_time<='$datetime_to' and td_medkit_out.team_id=$team_id and td_stock_medication.id=$medical_id and td_medkit_out_detail.m_num>0	" ;
+    $sql2 = " SELECT td_stock_medication.id,td_stock_medication.m_name,td_medkit_in_deatail.w_num,SUBSTR(td_medkit_in.w_time,1,10) FROM td_stock_medication inner join td_medkit_in_deatail inner join td_medkit_in on td_medkit_in.w_id=td_medkit_in_deatail.w_id  and td_stock_medication.id=td_medkit_in_deatail.w_mid where td_medkit_in.w_time >= '$datetime_from' and td_medkit_in.w_time<='$datetime_to' and  td_stock_medication.id = $medical_id and td_medkit_in_deatail.w_num>0 ";
+	$sql3 = " SELECT td_stock_medication.id,td_stock_medication.m_name,td_medkit_out_detail.m_num,SUBSTR(td_medkit_out.m_time,1,10),td_medkit_out.team_id FROM td_stock_medication inner join td_medkit_out_detail inner join td_medkit_out on td_medkit_out.m_id=td_medkit_out_detail.m_id  and td_medkit_out.team_id=td_medkit_out_detail.team_id and td_stock_medication.id=td_medkit_out_detail.m_wid where td_medkit_out.m_time >= '$datetime_from' and td_medkit_out.m_time<='$datetime_to'  and td_stock_medication.id=$medical_id and td_medkit_out_detail.m_num>0 ";
 
-    $medical_info_list_out = $db2->getAll($sql1);
+	if($team_id == NULL){
+		$medical_info_list_out = $db2->getAll($sql3);
+	}else{
+		$medical_info_list_out = $db2->getAll($sql1);
+	}
+    //$medical_info_list_out = $db2->getAll($sql1);
+	
 	$medical_info_list_in = $db2->getAll($sql2);
 
 	$medical_list = [];
@@ -94,10 +100,10 @@ function api_medical_statistics(){
 	//$sum_out[] = 0;
 	if(empty($medical_info_list_out))
 	{
-		$medical_list_out = ["out_data is null"];
-		$medical_data[] = ['has_more'=>false,'medical_list'=>$medical_list_out];
+		$medical_list_out = "out_data is null";
+		//$medical_data[] = ['has_more'=>false,'medical_list'=>$medical_list_out];
 		
-        return apiSucc($medical_data);
+        //return apiSucc($medical_data);
     }else{
         $hasMore = true;
 		foreach($medical_info_list_out as $row){
@@ -138,10 +144,10 @@ function api_medical_statistics(){
 	//$sum_in[] = 0;
 	if(empty($medical_info_list_in))
 	{
-		$medical_list_in = ["in_data is null"];
-		$medical_data[] = ['has_more'=>false,'medical_list'=>$medical_list_in];
+		$medical_list_in = "in_data is null";
+		//$medical_data[] = ['has_more'=>false,'medical_list'=>$medical_list_in];
 		
-        return apiSucc($medical_data);
+        //return apiSucc($medical_data);
     }else{
         $hasMore = true;
 		foreach($medical_info_list_in as $row){
@@ -173,10 +179,28 @@ function api_medical_statistics(){
 	}
 	
 	
+	if($medical_list_out == "out_data is null" and $medical_list_in == "in_data is null"){
+		$hasMore = false;
+		$medical_data[] = ['has_more'=>$hasMore,'medical_list'=>[]];
+	}else if($medical_list_out == "out_data is null" and $medical_list_in != "in_data is null"){
+        $hasMore = true;
+		$m_out_all[] = ['out_date'=>[0],'out_num'=>[0]];
+		$medical_list[] = ['in_data'=>$m_in_all,'out_data'=>$m_out_all];
+		$medical_data[] = ['has_more'=>$hasMore,'medical_list'=>$medical_list];
+	}else if($medical_list_out != "out_data is null" and $medical_list_in == "in_data is null"){
+        $hasMore = true;
+		$m_in_all[] = ['in_date'=>[0],'in_num'=>[0]];
+		$medical_list[] = ['in_data'=>$m_in_all,'out_data'=>$m_out_all];
+		$medical_data[] = ['has_more'=>$hasMore,'medical_list'=>$medical_list];
+	}else{
+		$hasMore = true;
+		$medical_list[] = ['in_data'=>$m_in_all,'out_data'=>$m_out_all];
+		$medical_data[] = ['has_more'=>$hasMore,'medical_list'=>$medical_list];
+	}
+	//$medical_list[] = ['in_data'=>$m_in_all,'out_data'=>$m_out_all];
 	
-	$medical_list[] = ['in_data'=>$m_in_all,'out_data'=>$m_out_all];
-	
-	$medical_data[] = ['has_more'=>$hasMore,'medical_list'=>$medical_list];
+	//$medical_data[] = ['has_more'=>$hasMore,'medical_list'=>$medical_list];
+
     return apiSucc($medical_data);
 }
 //下拉框
@@ -206,4 +230,29 @@ function api_medical_select(){
 
 }
 
+function api_medical_teamselect(){
+	$groupId = $GLOBALS['group_id'];
+	$db2 = $GLOBALS['groupdb'][$groupId]; 
+
+	$sql = "SELECT td_team.team_id,td_team.team_name FROM td_team " ;
+
+	$team_info_list = $db2->getAll($sql);
+    $team_list = [];
+    debug($team_info_list);
+	if(empty($team_info_list))
+	{
+		$team_data[] = ['has_more'=>false,'team_list'=>[]];
+        return apiSucc($team_data);
+    }else{
+        $hasMore = true;
+		//遍历获得的数据
+		foreach($team_info_list as $row){
+			//整合所有要的信息
+		    $team_list[] = ['team_id'=>$row['team_id'],'team_name'=>$row['team_name']];
+		}
+	}
+	$team_data[] = ['has_more'=>$hasMore,'team_list'=>$team_list];
+    return apiSucc($team_data);
+
+}
 ?>
