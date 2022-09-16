@@ -31,6 +31,7 @@ function api_staff_list(){
 	$staff_list = [];
 	if(empty($staff_info_list))
 	{
+		$hasMore = false;
 		$staff_data[] = ['has_more'=>false,'staff_list'=>[]];
         return apiSucc($staff_data);
     }else{
@@ -43,6 +44,32 @@ function api_staff_list(){
 	}
 	$staff_data[] = ['has_more'=>$hasMore,'staff_list'=>$staff_list];
     return apiSucc($staff_data);
+}
+
+function api_staff_teamselect(){
+	$groupId = $GLOBALS['group_id'];
+	$db2 = $GLOBALS['groupdb'][$groupId]; 
+
+	$sql = "SELECT td_team.team_id,td_team.team_name FROM td_team " ;
+
+	$team_info_list = $db2->getAll($sql);
+    $team_list = [];
+    debug($team_info_list);
+	if(empty($team_info_list))
+	{
+		$team_data[] = ['has_more'=>false,'team_list'=>[]];
+        return apiSucc($team_data);
+    }else{
+        $hasMore = true;
+		//遍历获得的数据
+		foreach($team_info_list as $row){
+			//整合所有要的信息
+		    $team_list[] = ['team_id'=>$row['team_id'],'team_name'=>$row['team_name']];
+		}
+	}
+	$team_data[] = ['has_more'=>$hasMore,'team_list'=>$team_list];
+    return apiSucc($team_data);
+
 }
 
 
